@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>BMI Advanced Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI Calculator</h1>
+
+      <form>
+        <div class="form-group">
+          <label for="weight">Enter your weight in kg</label>
+          <input type="number" id="weight" />
+        </div>
+
+        <div class="form-group">
+          <label for="height">Enter your Height in m</label>
+          <input type="number" id="height" step="any"/>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" class="btn-block">Check</button>
+        </div>
+      </form>
+
+      <p class="display-message"></p>
+    </div>
+
+    <script src="bmiAdvanced.js"></script>
+  </body>
+</html>
